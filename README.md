@@ -19,3 +19,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Overview of the syllabus for this section.
 + A sneak peak at the project we will make.
 + What you will get from this section.
+
+### 4 Basic Controller Movement ###
+
++ Why we will use a character.
++ Finding the look direction.
++ Setup the characters movement.
++ The draw backs of controller movement.
