@@ -13,3 +13,9 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Supported hardware: Oculus Rift and HTC Vive.
 + Setting up our base project.
 + How head tracking works in Unreal.
+
+### 3 Movement Section Overview ###
+
++ Overview of the syllabus for this section.
++ A sneak peak at the project we will make.
++ What you will get from this section.
