@@ -26,3 +26,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Finding the look direction.
 + Setup the characters movement.
 + The draw backs of controller movement.
+
+### 5 Importing An ArchViz Environment ###
+
++ Importing a beautiful environment.
++ Why we shouldn't version these files.
++ Setup the `GameMode`.
++ Why do collisions behave strangely?
