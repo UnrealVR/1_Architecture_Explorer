@@ -33,3 +33,9 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Why we shouldn't version these files.
 + Setup the `GameMode`.
 + Why do collisions behave strangely?
+
+### 6 Playspace Movement and Colliders ###
+
++ How can we avoid the collision issue?
++ Adding a VR root component.
++ Aligning the camera to the capsule.
