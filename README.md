@@ -39,3 +39,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + How can we avoid the collision issue?
 + Adding a VR root component.
 + Aligning the camera to the capsule.
+
+### 7 What Is VR Sickness? ###
+
++ Why do we feel VR sickness?
++ The sensory systems involved.
++ How do we fool our senses?
++ What are the limits of existing techniques.
