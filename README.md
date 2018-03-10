@@ -46,3 +46,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + The sensory systems involved.
 + How do we fool our senses?
 + What are the limits of existing techniques.
+
+### 8 Line Tracing A Teleport Destination ###
+
++ How does teleporting work?
++ Creating a destination marker.
++ Revision of Line Tracing in C++.
++ Positioning the destination with gaze.
