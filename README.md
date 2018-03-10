@@ -53,3 +53,9 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Creating a destination marker.
 + Revision of Line Tracing in C++.
 + Positioning the destination with gaze.
+
+### 9 Importing And Using Materials ###
+
++ Fixing the cylinder bug.
++ Importing a teleport material.
++ Showing/hiding the destination.
