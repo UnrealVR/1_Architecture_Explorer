@@ -66,3 +66,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Teleporting to the right location.
 + Fading the camera.
 + Setting a timer to fade up.
+
+### 11 Projecting Onto The NavMesh ###
+
++ How can we constrain the teleport destination?
++ Setting up a NavMesh.
++ Projecting to the NavMesh.
++ A brief refactor.
