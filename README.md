@@ -59,3 +59,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Fixing the cylinder bug.
 + Importing a teleport material.
 + Showing/hiding the destination.
+
+### 10 Fades, Timers and Teleporting ###
+
++ Setting up a teleport action.
++ Teleporting to the right location.
++ Fading the camera.
++ Setting a timer to fade up.

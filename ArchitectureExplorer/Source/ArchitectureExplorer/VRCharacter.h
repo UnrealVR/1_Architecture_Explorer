@@ -33,6 +33,9 @@ private:
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 
+	void BeginTeleport();
+	void FinishTeleport();
+
 private:
 	
 	UPROPERTY()
@@ -47,5 +50,8 @@ private:
 	
 	UPROPERTY(EditAnywhere)
 	float MaxTeleportDistance = 1000;
+
+	UPROPERTY(EditAnywhere)
+	float TeleportFadeTime = 1;
 
 };
