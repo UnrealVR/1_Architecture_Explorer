@@ -80,3 +80,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Creating a post processing material.
 + Overview of the nodes we need.
 + Creating a tunnel vision effect.
+
+### 13 Dynamic Material Instances ###
+
++ What are material parameters?
++ Setup a post processing component.
++ Dynamic vs static material instances.
++ Creating a material instance.
