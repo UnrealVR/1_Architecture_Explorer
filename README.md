@@ -73,3 +73,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Setting up a NavMesh.
 + Projecting to the NavMesh.
 + A brief refactor.
+
+### 12 PostProcessing Materials ###
+
++ What is a material?
++ Creating a post processing material.
++ Overview of the nodes we need.
++ Creating a tunnel vision effect.
