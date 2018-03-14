@@ -93,3 +93,11 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + What is a curve?
 + Accessing a curve from C++.
 + Setting the radius from speed.
+
+### 15 Creating Tunnel Vision ###
+
++ Where is the centre of movement?
++ Updating the blinker centre.
++ Projecting to the screen.
++ Getting the screen size.
++ Calculating the centre.
