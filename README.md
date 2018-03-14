@@ -87,3 +87,9 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Setup a post processing component.
 + Dynamic vs static material instances.
 + Creating a material instance.
+
+### 14 Adjusting Radius With A Curve ###
+
++ What is a curve?
++ Accessing a curve from C++.
++ Setting the radius from speed.
