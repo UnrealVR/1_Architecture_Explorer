@@ -113,3 +113,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Why use a parabolic path?
 + How do we trace a parabolic path?
 + Predicting a projectile in Unreal.
+
+### 18 Using A USplineComponent ###
+
++ Adding to a spline component.
++ How the component works.
++ Previewing the spline in debug mode.
++ Setting the spline control points in C++.
