@@ -107,3 +107,9 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Setup hand controller components.
 + Where are the hand controller meshes?
 + Teleporting with hand controllers.
+
+### 17 Parabolic Teleport Pointer ###
+
++ Why use a parabolic path?
++ How do we trace a parabolic path?
++ Predicting a projectile in Unreal.
