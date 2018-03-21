@@ -126,3 +126,11 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + How the component works.
 + Previewing the spline in debug mode.
 + Setting the spline control points in C++.
+
+### 19 Dynamically Constructing UObjects ##
+
++ Creating a new object.
++ Dynamically attaching components.
++ Why is `RegisterComponent()` important?
++ Setup meshes and materials.
++ Storing an object pool.
