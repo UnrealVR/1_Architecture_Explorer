@@ -134,3 +134,11 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Why is `RegisterComponent()` important?
 + Setup meshes and materials.
 + Storing an object pool.
+
+### 20 Deforming Meshes With Splines ###
+
++ What is a `USplineMeshComponent`?
++ Replacing the `UStaticMeshComponent`
++ Getting the spline tangents.
++ Tracing the spline.
++ Hiding extra meshes.
