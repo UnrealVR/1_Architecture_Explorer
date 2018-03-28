@@ -142,3 +142,11 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Getting the spline tangents.
 + Tracing the spline.
 + Hiding extra meshes.
+
+### 21 Extracting A Hand Controller Actor ###
+
++ Why should hand controllers be actors?
++ Spawn actors on BeginPlay.
++ Move `UMotionControllerComponent` into Actors.
++ Fix other build errors.
++ Create a Blueprint child actor.
