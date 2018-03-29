@@ -168,3 +168,10 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Binding input to the controllers.
 + Setting starting climb state.
 + Updating the parent location.
+
+### 25 Climbing Motion Part 2 ###
+
++ Creating a climbing wall.
++ Setting movement modes.
++ Pairing the controllers.
++ Stealing control.
