@@ -162,3 +162,9 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 
 + Haptic Feedback Effect curves.
 + Playing the effect on hand controllers.
+
+### 24 Climbing Motion ###
+
++ Binding input to the controllers.
++ Setting starting climb state.
++ Updating the parent location.
