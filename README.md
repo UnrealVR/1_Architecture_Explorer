@@ -157,3 +157,8 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Handling overlap events.
 + Querying overlapping actors.
 + Printing on the rising edge.
+
+### 23 Haptic Feedback Effects ###
+
++ Haptic Feedback Effect curves.
++ Playing the effect on hand controllers.
