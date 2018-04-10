@@ -175,3 +175,8 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 + Setting movement modes.
 + Pairing the controllers.
 + Stealing control.
+
+### 26 End Of Section Review ###
+
++ We review what we have learnt.
++ How to practice your new knowledge.
