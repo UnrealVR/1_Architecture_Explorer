@@ -180,3 +180,7 @@ Section 1 of the GameDev.tv Unreal VR Course, [available on Udemy](http://gdev.t
 
 + We review what we have learnt.
 + How to practice your new knowledge.
+
+### 27 A Short Pause... ###
+
+Production goes on a short pause till june.
