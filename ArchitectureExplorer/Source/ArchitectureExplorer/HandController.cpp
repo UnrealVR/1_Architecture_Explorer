@@ -50,7 +50,7 @@ void AHandController::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherAc
 			APlayerController* Controller = Cast<APlayerController>(Pawn->GetController());
 			if (Controller != nullptr)
 			{
-				Controller->PlayHapticEffect(HapticEffect, MotionController->Hand);
+				Controller->PlayHapticEffect(HapticEffect, MotionController->GetTrackingSource());
 			}
 		}
 	}

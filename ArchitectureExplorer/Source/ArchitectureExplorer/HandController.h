@@ -17,7 +17,7 @@ public:
 	// Sets default values for this actor's properties
 	AHandController();
 
-	void SetHand(EControllerHand Hand) { MotionController->Hand = Hand; }
+	void SetHand(EControllerHand Hand) { MotionController->SetTrackingSource(Hand); }
 	void PairController(AHandController* Controller);
 
 	void Grip();
