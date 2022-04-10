@@ -5,7 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "TimerManager.h"
 #include "Components/CapsuleComponent.h"
-#include "AI/Navigation/NavigationSystem.h"
+#include "NavigationSystem.h"
 #include "Components/PostProcessComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "MotionControllerComponent.h"
@@ -55,6 +55,7 @@ void AVRCharacter::BeginPlay()
 	{
 		LeftController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
 		LeftController->SetHand(EControllerHand::Left);
+		LeftController->SetOwner(this);
 	}
 
 	RightController = GetWorld()->SpawnActor<AHandController>(HandControllerClass);
@@ -62,6 +63,7 @@ void AVRCharacter::BeginPlay()
 	{
 		RightController->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform);
 		RightController->SetHand(EControllerHand::Right);
+		RightController->SetOwner(this);
 	}
 
 	LeftController->PairController(RightController);
@@ -84,7 +86,7 @@ void AVRCharacter::Tick(float DeltaTime)
 bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
 {
 	FVector Start = RightController->GetActorLocation();
-	FVector Look = RightController->GetActorForwardVector();
+	FVector Look = (RightController->GetActorForwardVector() - RightController->GetActorUpVector()).GetSafeNormal();
 
 	FPredictProjectilePathParams Params(
 		TeleportProjectileRadius, 
@@ -106,7 +108,7 @@ bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &Ou
 	}
 
 	FNavLocation NavLocation;
-	bool bOnNavMesh = GetWorld()->GetNavigationSystem()->ProjectPointToNavigation(Result.HitResult.Location, NavLocation, TeleportProjectionExtent);
+	bool bOnNavMesh = UNavigationSystemV1::GetCurrent(GetWorld())->ProjectPointToNavigation(Result.HitResult.Location, NavLocation, TeleportProjectionExtent);
 
 	if (!bOnNavMesh) return false;
 
